@@ -7,7 +7,7 @@
 Summary:	DSO module for the apache Web server
 Name:		apache-%{mod_name}
 Version:	1.2.2
-Release:	%mkrel 1
+Release:	%mkrel 2
 Group:		System/Servers
 License:	GPL
 URL:		http://www.parisc-linux.org/~varenet/musicindex/
