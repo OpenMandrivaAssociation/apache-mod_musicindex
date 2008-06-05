@@ -48,7 +48,7 @@ cp %{SOURCE1} %{mod_conf}
 rm -f configure
 autoconf
 
-%configure2_5x \
+%configure2_5x --localstatedir=/var/lib \
     --libdir=%{_libdir}
 
 %make 
