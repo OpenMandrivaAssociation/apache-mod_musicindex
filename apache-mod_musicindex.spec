@@ -46,7 +46,7 @@ cp %{SOURCE1} %{mod_conf}
 
 %build
 rm -f configure
-autoconf
+autoreconf -fis
 
 %configure2_5x --localstatedir=/var/lib \
     --libdir=%{_libdir}
