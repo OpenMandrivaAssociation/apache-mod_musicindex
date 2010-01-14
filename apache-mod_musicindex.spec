@@ -6,8 +6,8 @@
 
 Summary:	DSO module for the apache Web server
 Name:		apache-%{mod_name}
-Version:	1.2.5
-Release:	%mkrel 2
+Version:	1.3.0
+Release:	%mkrel 1
 Group:		System/Servers
 License:	GPL
 URL:		http://www.parisc-linux.org/~varenet/musicindex/
@@ -27,6 +27,8 @@ BuildRequires:	mad-devel
 BuildRequires:	libogg-devel
 BuildRequires:	libvorbis-devel
 BuildRequires:	libarchive-devel
+BuildRequires:	libmp4v2-devel
+BuildRequires:	mysql-devel
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
@@ -46,7 +48,7 @@ cp %{SOURCE1} %{mod_conf}
 
 %build
 rm -f configure
-autoreconf -fis
+autoreconf -fi
 
 %configure2_5x --localstatedir=/var/lib \
     --libdir=%{_libdir}
