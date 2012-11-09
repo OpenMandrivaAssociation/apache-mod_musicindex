@@ -1,0 +1,10 @@
+--- configure.ac	2009-02-16 00:20:08.000000000 +0100
++++ configure.ac.oden	2009-06-10 17:20:58.000000000 +0200
+@@ -74,7 +74,6 @@
+     APXS_CFLAGS="$APXS_CFLAGS `$APXS -q CFLAGS_SHLIB`"
+     APXS_LIBS="`$APXS -q LDFLAGS_SHLIB`"
+     APXS_INCLUDE="-I`$APXS -q INCLUDEDIR`"
+-    libdir="`$APXS -q LIBEXECDIR`"
+ fi
+ 
+ AC_SUBST(APXS_CFLAGS)
