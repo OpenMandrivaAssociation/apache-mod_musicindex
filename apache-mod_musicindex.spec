@@ -7,7 +7,7 @@
 Summary:	DSO module for the apache Web server
 Name:		apache-%{mod_name}
 Version:	1.4.0
-Release:	1
+Release:	2
 Group:		System/Servers
 License:	LGPLv2.1
 URL:		http://hacks.slashdirt.org/musicindex/
