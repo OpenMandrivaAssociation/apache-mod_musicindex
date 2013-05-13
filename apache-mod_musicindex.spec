@@ -21,12 +21,12 @@ Requires(pre):  apache >= %{apache_version}
 Requires:	apache-conf >= %{apache_version}
 Requires:	apache >= %{apache_version}
 BuildRequires:  apache-devel >= %{apache_version}
-BuildRequires:	libflac-devel
+BuildRequires:	pkgconfig(flac)
 BuildRequires:	id3tag-devel
 BuildRequires:	mad-devel
-BuildRequires:	libogg-devel
-BuildRequires:	libvorbis-devel
-BuildRequires:	libarchive-devel
+BuildRequires:	pkgconfig(ogg)
+BuildRequires:	pkgconfig(vorbis)
+BuildRequires:	pkgconfig(libarchive)
 BuildRequires:	libmp4v2-devel
 BuildRequires:	mysql-devel
 
