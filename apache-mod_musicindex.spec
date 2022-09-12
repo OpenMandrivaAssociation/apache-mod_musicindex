@@ -6,8 +6,8 @@
 
 Summary:	DSO module for the apache Web server
 Name:		apache-%{mod_name}
-Version:	1.4.0
-Release:	4
+Version:	1.4.1
+Release:	1
 Group:		System/Servers
 License:	LGPLv2.1
 URL:		http://hacks.slashdirt.org/musicindex/
@@ -27,7 +27,6 @@ BuildRequires:	mad-devel
 BuildRequires:	pkgconfig(ogg)
 BuildRequires:	pkgconfig(vorbis)
 BuildRequires:	pkgconfig(libarchive)
-BuildRequires:	libmp4v2-devel
 BuildRequires:	mysql-devel
 
 %description
