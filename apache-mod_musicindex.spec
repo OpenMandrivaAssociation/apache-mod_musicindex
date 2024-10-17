@@ -10,7 +10,7 @@ Version:	1.4.1
 Release:	2
 Group:		System/Servers
 License:	LGPLv2.1
-URL:		http://hacks.slashdirt.org/musicindex/
+URL:		https://hacks.slashdirt.org/musicindex/
 Source0:	http://hacks.slashdirt.org/musicindex/%{mod_name}-%{version}.tar.gz
 Source1:	%{mod_conf}
 Patch0:		mod_musicindex-libdir.diff
